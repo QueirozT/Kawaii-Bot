@@ -23,6 +23,7 @@
 body {
     font-size: 100%;
     background: linear-gradient(to bottom, var(--cor1), var(--cor0)) fixed no-repeat;
+    min-width: 1400px;
 }
 
 .cabecalho {
@@ -31,7 +32,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 10px 0px;
-    min-width: 400px;
 }
 
 .cabecalho-img {
@@ -47,6 +47,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     color: var(--white);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 5px;
     margin-right: 10px;
 }
@@ -84,6 +85,7 @@ body {
     font-weight: 400;
     font-size: 64px;
     color: var(--white);
+    text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -99,7 +101,7 @@ body {
     height: 60px;
     border: none;
     border-radius: 20px;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
     font-family: var(--font-normal);
     font-weight: 400;
     font-size: 24px;
@@ -112,7 +114,8 @@ body {
 }
 
 .conteudo-principal-imagem {
-    height: 600px;
+    max-width: 600px;
+    min-width: 400px;
 }
 
 .conteudo-secundario {
