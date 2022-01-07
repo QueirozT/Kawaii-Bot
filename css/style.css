@@ -158,7 +158,7 @@ body {
 
 @media (max-width: 600px) {
     body {
-        min-width: 450px;
+        min-width: 500px;
     }
 
 
@@ -206,12 +206,13 @@ body {
     }
     
     .conteudo-principal-imagem {
-        max-width: 300px;
+        max-width: 400px;
     }
 
 
     .conteudo-secundario-titulo {
         font-size: 16px;
+        border: none;
     }
     
     .conteudo-secundario-paragrafo {
