@@ -211,10 +211,23 @@ body {
     }
 
     .conteudo-secundario-titulo {
+        display: block;
         font-size: 18px;
     }
     
     .conteudo-secundario-paragrafo {
+        display: block;
         font-size: 12px;    
+    }
+
+    
+    .rodape {
+        padding: 20px;
+    }
+
+    .rodape-imagem {
+        height: 30px;
+        display: block;
+        margin: 0px auto;
     }
 }
