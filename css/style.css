@@ -209,25 +209,4 @@ body {
         max-width: 400px;
     }
 
-
-    .conteudo-secundario-titulo {
-        font-size: 16px;
-        border: none;
-    }
-    
-    .conteudo-secundario-paragrafo {
-        font-size: 10px;
-    }
-
-
-    .rodape {
-        padding: 30px;
-        border-top: 0.4px solid var(--white);
-    }
-    
-    .rodape-imagem {
-        height: 30px;
-        display: block;
-        margin: auto;
-    }
 }
