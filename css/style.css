@@ -210,4 +210,11 @@ body {
         max-width: 400px;
     }
 
+    .conteudo-secundario-titulo {
+        font-size: 18px;
+    }
+    
+    .conteudo-secundario-paragrafo {
+        font-size: 12px;    
+    }
 }
