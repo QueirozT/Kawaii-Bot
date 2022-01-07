@@ -13,6 +13,10 @@
     --font-especial: 'Righteous', cursive;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +25,6 @@
 }
 
 body {
-    font-size: 100%;
     background: linear-gradient(to bottom, var(--cor1), var(--cor0)) fixed no-repeat;
     min-width: 1400px;
     margin: auto;
