@@ -211,12 +211,12 @@ body {
     }
 
     .conteudo-secundario-titulo {
-        display: block;
+        white-space: nowrap;
         font-size: 18px;
     }
     
     .conteudo-secundario-paragrafo {
-        display: block;
+        white-space: nowrap;
         font-size: 12px;    
     }
 
