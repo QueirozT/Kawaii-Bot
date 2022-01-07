@@ -218,12 +218,14 @@ body {
         font-size: 16px;
         margin-bottom: 5px;
         text-align: center;
+        width: 100%;
     }
     
     .conteudo-secundario-paragrafo {
         display: inline;
         font-size: 11px;
-        text-align: justify;
+        text-align: center;
+        width: 100%;
     }
 
 
