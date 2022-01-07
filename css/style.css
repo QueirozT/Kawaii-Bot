@@ -24,6 +24,7 @@ body {
     font-size: 100%;
     background: linear-gradient(to bottom, var(--cor1), var(--cor0)) fixed no-repeat;
     min-width: 1400px;
+    margin: auto;
 }
 
 .cabecalho {
@@ -31,7 +32,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px 0px;
+    padding: 1rem 0rem;
 }
 
 .cabecalho-img {
@@ -45,7 +46,7 @@ body {
 .cabecalho-menu-item {
     font-family: var(--font-normal);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     color: var(--white);
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 5px;
@@ -151,4 +152,58 @@ body {
     height: 48px;
     display: block;
     margin: auto;
+}
+
+@media (max-width: 600px) {
+    body {
+        min-width: 600px;
+    }
+
+    .cabecalho-menu-item {
+        font-size: 20px;
+        padding: 5px;
+        margin-right: 5px;
+    }
+    
+    .cabecalho-menu-item:hover {
+        border-radius: 5px;
+    }
+
+    .conteudo-principal-escrito {
+        gap: 8px;
+        padding: 30px 55px 30px 20px;
+        background: url('../img/Balao.png') no-repeat;
+        background-size: 90%;
+        background-position: center;
+    }
+    
+    .conteudo-principal-escrito-titulo {
+        font-size: 20px;
+    }
+    
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 9px;
+    }
+    
+    .conteudo-principal-escrito-botao {
+        width: 80px;
+        height: 20px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    
+    .conteudo-principal-imagem {
+        max-width: 250px;
+    }
+
+
+    .conteudo-secundario-titulo {
+        padding-top: 30px;
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    
+    .conteudo-secundario-paragrafo {
+        font-size: 10px;
+    }
 }
