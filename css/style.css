@@ -188,7 +188,7 @@ body {
 
     .conteudo-principal-escrito {
         gap: 8px;
-        padding: 30px 55px 30px 20px;
+        padding: 20px;
         background: none;
     }
     
@@ -213,6 +213,7 @@ body {
 
 
     .conteudo-secundario-titulo {
+        display: inline;
         padding-top: 30px;
         font-size: 16px;
         margin-bottom: 5px;
@@ -220,6 +221,7 @@ body {
     }
     
     .conteudo-secundario-paragrafo {
+        display: inline;
         font-size: 11px;
         text-align: justify;
     }
