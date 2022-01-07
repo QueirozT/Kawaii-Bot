@@ -159,7 +159,8 @@ body {
 
 @media (max-width: 600px) {
     body {
-        min-width: 425px;
+        min-width: 450px;
+        margin: auto;
     }
 
 
