@@ -211,24 +211,16 @@ body {
 
 
     .conteudo-secundario-titulo {
-        display: inline;
-        padding-top: 30px;
         font-size: 16px;
-        margin-bottom: 5px;
-        text-align: center;
-        width: 100%;
     }
     
     .conteudo-secundario-paragrafo {
-        display: inline;
-        font-size: 11px;
-        text-align: center;
-        width: 100%;
+        font-size: 10px;
     }
 
 
     .rodape {
-        padding: 20px;
+        padding: 30px;
         border-top: 0.4px solid var(--white);
     }
     
