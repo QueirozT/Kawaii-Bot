@@ -80,7 +80,7 @@ body {
     padding: 60px 110px 60px 80px;
     background: url('../img/Balao.png') no-repeat;
     background-size: 90%;
-    background-position: center;
+    background-position: center center;
 }
 
 .conteudo-principal-escrito-titulo {
